@@ -5207,8 +5207,11 @@
       if (_this.state === 'opening' || _this.state === 'opened') {
         return;
       }
-
-      _this.state = 'opening';
+		
+		document.body.parentNode.style.overflowY = "auto";
+		$("body").parent().css("overflow-y","auto");
+      
+	  _this.state = 'opening';
       componentEvent('open', 'drawer', _this, _this.$drawer);
 
       if (!_this.options.overlay) {
