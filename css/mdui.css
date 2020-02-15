@@ -9758,9 +9758,10 @@ select.mdui-select[multiple] option:last-child {
   overflow: hidden;
   color: #000;
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 8px;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
           box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  margin: 0px 10px 0px 10px;
 }
 /**
  * ===================== 头部，包含头像、标题、副标题
@@ -12455,6 +12456,8 @@ body.mdui-loaded .mdui-drawer {
   color: rgba(0, 0, 0, .87);
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, .12);
+  border-radius: 8px;
+  margin: 0px 10px 0px 10px;
   -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
           box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
   -webkit-transition: margin .3s cubic-bezier(.4, 0, .2, 1);
