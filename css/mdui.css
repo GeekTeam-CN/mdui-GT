@@ -9551,6 +9551,7 @@ select.mdui-select[multiple] option:last-child {
   -webkit-align-items: center;
   -ms-flex-align: center;
           align-items: center;
+	border-radius: 8px 8px 0px 0px;
 }
 .mdui-toolbar > * {
   margin: 0 16px;
@@ -9612,8 +9613,20 @@ select.mdui-select[multiple] option:last-child {
 }
 @media (min-width: 600px) {
   .mdui-appbar .mdui-toolbar {
-    height: 64px;
-    line-height: 64px;
+    height: 54px;
+    line-height: 54px;
+  }
+  .mdui-appbar .mdui-toolbar > .mdui-btn {
+    margin: 0 8px;
+  }
+  .mdui-appbar .mdui-toolbar > .mdui-btn + .mdui-btn {
+    margin-left: 0;
+  }
+}
+@media (max-width: 600px) {
+  .mdui-appbar .mdui-toolbar {
+    height: 50px;
+    line-height: 50px;
   }
   .mdui-appbar .mdui-toolbar > .mdui-btn {
     margin: 0 8px;
@@ -9624,8 +9637,9 @@ select.mdui-select[multiple] option:last-child {
 }
 @media (orientation: landscape) and (max-width: 959px) {
   .mdui-appbar .mdui-toolbar {
-    height: 48px;
-    line-height: 48px;
+    height: 54px;
+    line-height: 54px;
+	padding-left: 6px;
   }
   .mdui-appbar .mdui-toolbar > .mdui-btn {
     margin: 0 4px;
@@ -9643,6 +9657,8 @@ select.mdui-select[multiple] option:last-child {
   z-index: 1000;
   -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
           box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+	margin: 18px 25px 0px 25px;
+	border-radius: 8px;
 }
 /* appbar 固定在顶部 */
 .mdui-appbar-fixed {
@@ -9950,6 +9966,7 @@ select.mdui-select[multiple] option:last-child {
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   white-space: nowrap;
+  border-radius: 0px 0px 8px 8px;
 }
 .mdui-tab a {
   display: -webkit-box;
