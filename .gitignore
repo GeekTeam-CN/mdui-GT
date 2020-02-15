@@ -1,4 +1,2 @@
-.idea/
-node_modules/
-mdui-v*.zip
-yarn.lock
+index.htm
+index.html
