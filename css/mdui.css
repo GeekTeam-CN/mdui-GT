@@ -12836,3 +12836,85 @@ body.mdui-loaded .mdui-drawer {
     margin-top: 136px;
   }
 }
+.mdui-gt-btn-outline {
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1.5px;
+  position: relative;
+  display: inline-block;
+  min-width: 88px;
+  height: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 16px;
+  margin: 0;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  color: inherit;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  zoom: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: transparent;
+  -webkit-transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+          transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+          transition: all .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+          transition: all .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+
+  will-change: box-shadow;
+  -webkit-user-drag: none;
+}
+.mdui-gt-outline-red {
+  border-color: #FFEBEE;
+}
+.mdui-gt-outline-pink {
+  border-color: #FCE4EC;
+}
+.mdui-gt-outline-purple {
+  border-color: #F3E5F5;
+}
+.mdui-gt-outline-indigo {
+  border-color: #E8EAF6;
+}
+.mdui-gt-outline-blue {
+  border-color: #E3F2FD;
+}
+.mdui-gt-outline-cyan {
+  border-color: #E0F7FA;
+}
+.mdui-gt-outline-teal {
+  border-color: #E0F2F1;
+}
+.mdui-gt-outline-green {
+  border-color: #E8F5E9;
+}
+.mdui-gt-outline-lime {
+  border-color: #F9FBE7;
+}
+.mdui-gt-outline-yellow {
+  border-color: #FFFDE7;
+}
+.mdui-gt-outline-amber {
+  border-color: #FFF8E1;
+}
+.mdui-gt-outline-orange {
+  border-color: #FFF3E0;
+}
+.mdui-gt-outline-brown {
+  border-color: #EFEBE9;
+}
+.mdui-gt-outline-grey {
+  border-color: #FAFAFA;
+}
