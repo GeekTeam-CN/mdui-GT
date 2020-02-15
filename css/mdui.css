@@ -12918,3 +12918,9 @@ body.mdui-loaded .mdui-drawer {
 .mdui-gt-outline-grey {
   border-color: #FAFAFA;
 }
+/* 当仅有Toolbar时使用这个属性来修复圆角问题 */
+/* Use this class to fix radius issue when only show toolbar */
+.mdui-gt-only-toolbar-fix {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
