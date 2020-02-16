@@ -12452,6 +12452,7 @@ body.mdui-loaded .mdui-drawer {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-radius: 8px;
 }
 /* 面板项 */
 .mdui-panel-item {
