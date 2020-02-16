@@ -4654,6 +4654,16 @@
 
       // 根据 url hash 获取默认激活的选项卡
       var hash = location.hash;
+
+	  //判断参数并自动激活?#home选项卡
+	  if (_this.activeIndex == 0) {
+	  	var url = document.location.toString();
+		var arrUrl = url.split("?");
+		var para = arrUrl[1];
+	  	if(para != "#home"){
+	  		location.href = arrUrl[0] + "?#home";
+	  	}
+	  }
       if (hash) {
         _this.$tabs.each(function (i, tab) {
           if ($(tab).attr('href') === hash) {
