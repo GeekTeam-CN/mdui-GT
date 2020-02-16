@@ -7553,3 +7553,16 @@
   return mdui;
 })));
 /* jshint ignore:end */
+
+
+  /**
+   * =============================================================================
+   * ************   mdui-gt Custom   ************
+   * =============================================================================
+   */
+
+/* 修复Bug: 修复了当Tab选项卡加载完毕时，主体被向下移动的问题。*/
+/* Fix Bug: When the tab loads successfully, the body is moved down. */
+window.onload = function() {
+	window.scrollTo(0,0);
+}
