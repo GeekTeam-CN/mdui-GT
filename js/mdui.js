@@ -4660,7 +4660,8 @@
 	  	var url = document.location.toString();
 		var arrUrl = url.split("?");
 		var para = arrUrl[1];
-	  	if(para != "#home"){
+		var regex = new RegExp("#");
+	  	if(regex.test(para) == false){
 	  		location.href = arrUrl[0] + "?#home";
 	  	}
 	  }
