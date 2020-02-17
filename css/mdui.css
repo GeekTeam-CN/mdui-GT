@@ -12929,3 +12929,10 @@ body.mdui-loaded .mdui-drawer {
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
+/* mdui-GT默认边距 */
+.mdui-gt-margin-left {
+	margin-left: 25px;
+}
+.mdui-gt-margin-right {
+	margin-right: 25px;
+}
